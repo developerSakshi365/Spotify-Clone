@@ -1,0 +1,29 @@
+<svg class="hamburger" width="60" height="50" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line {
+      fill: none;
+      stroke: #000000; /* Black color */
+      stroke-width: 10;
+      stroke-linecap: round;
+      transition: all 0.4s ease-in-out;
+    }
+    .hamburger:hover .line {
+      stroke: #1fdf64; /* Green on hover */
+      stroke-width: 12;
+    }
+    .hamburger.active .top {
+      transform: rotate(45deg) translate(15px, 15px);
+    }
+    .hamburger.active .middle {
+      opacity: 0;
+    }
+    .hamburger.active .bottom {
+      transform: rotate(-45deg) translate(15px, -15px);
+    }
+  </style>
+  <g class="hamburger">
+    <line class="line top" x1="10" y1="20" x2="90" y2="20" />
+    <line class="line middle" x1="10" y1="40" x2="90" y2="40" />
+    <line class="line bottom" x1="10" y1="60" x2="90" y2="60" />
+  </g>
+</svg>

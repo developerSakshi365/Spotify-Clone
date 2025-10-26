@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Spotify</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <div class="main">
+    <div class="logo invert">
+      <img src="img/logo.svg" alt="logo">
+    </div>
+    <h1>Log in to Spotify</h1>
+
+    <div class="buttons">
+      <button><img src="img/google.svg" alt="google" />Continue with Google</button>
+      <button><img src="img/facebook.svg" alt="facebook" />Continue with Facebook</button>
+      <button><img src="img/apple.svg" alt="apple" />Continue with Apple</button>
+      <button class="last">Continue with phone number</button>
+    </div>
+
+    <hr class="rule"/>
+
+    <div class="form">
+      <label for="email">Email or username</label>
+      <input type="text" id="email" placeholder="Email or username" />
+
+      <label for="password">Password</label>
+      <div class="input-container">
+        <input type="password" id="password" placeholder="Password" />
+        <i class="fa-regular fa-eye-slash toggle-password" onclick="togglePassword()"></i>
+      </div>
+    </div>
+
+    <button class="login">Log in</button>
+    <a class="forgot" href="#">Forgot your password?</a>
+    <span>Don’t have an account? <a href="signUp.html">Sign up for Spotify</a></span>
+  </div>
+  <div class="footer">
+    <p>
+ This site is protected by reCAPTCHA and the Google <a href="">Privacy policy</a>and
+    <a href="">Terms of services</a>apply.
+    </p>   
+  </div>
+
+  <script>
+    function togglePassword() {
+      const pwd = document.getElementById("password");
+      const icon = document.querySelector(".toggle-password");
+      if (pwd.type === "password") {
+        pwd.type = "text";
+        icon.classList.remove("fa-eye-slash");
+        icon.classList.add("fa-eye");
+      } else {
+        pwd.type = "password";
+        icon.classList.remove("fa-eye");
+        icon.classList.add("fa-eye-slash");
+      }
+    }
+  </script>
+</body>
+</html>

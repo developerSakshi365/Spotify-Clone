@@ -1,0 +1,16 @@
+<svg class="cross-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cross-line {
+      stroke: black;
+      stroke-width: 3;
+      stroke-linecap: round;
+      transition: stroke 0.3s ease;
+    }
+
+    .cross-icon:hover .cross-line {
+      stroke: #1fdf64; /* Green hover */
+    }
+  </style>
+  <line class="cross-line" x1="5" y1="5" x2="19" y2="19" />
+  <line class="cross-line" x1="19" y1="5" x2="5" y2="19" />
+</svg>
