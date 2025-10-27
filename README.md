@@ -42,11 +42,9 @@ Built using <strong>HTML, CSS, and JavaScript</strong>.
 ## 📸 Preview
 
 <div align="center">
-  <img src="https://github.com/developerSakshi365/Spotify-Clone/blob/649dbb0be528c432f5730f6577b49be08b1e0c3a/previewOfwholePage.png
-" width="300" />
-  <img src="https://github.com/developerSakshi365/Spotify-Clone/blob/649dbb0be528c432f5730f6577b49be08b1e0c3a/signUpPreview.png
-" width="300" />
-  <img src="[https://github.com/developerSakshi365/Spotify-Clone/blob/main/preview3.png](https://github.com/developerSakshi365/Spotify-Clone/blob/649dbb0be528c432f5730f6577b49be08b1e0c3a/loginPreview.png)" width="300" />
+  <img src="https://github.com/developerSakshi365/Spotify-Clone/raw/649dbb0be528c432f5730f6577b49be08b1e0c3a/previewOfwholePage.png" width="300" />
+  <img src="https://github.com/developerSakshi365/Spotify-Clone/raw/649dbb0be528c432f5730f6577b49be08b1e0c3a/signUpPreview.png" width="300" />
+  <img src="https://github.com/developerSakshi365/Spotify-Clone/raw/649dbb0be528c432f5730f6577b49be08b1e0c3a/loginPreview.png" width="300" />
 </div>
 
 ---
